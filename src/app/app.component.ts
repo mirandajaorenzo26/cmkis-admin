@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CICT Class Monitoring and Key Inventory Management System';
+
 }
