@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./semester-management.component.scss']
 })
 export class SemesterManagementComponent {
-  name: string = '';
-  email: string = '';
+  academicYear = '';
 }

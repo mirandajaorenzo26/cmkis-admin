@@ -1,12 +1,80 @@
 <h1>Faculty</h1>
 <hr />
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Faculty Name</mat-card-title>
-    <mat-card-subtitle>Faculty Email</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-  </mat-card-actions>
-</mat-card>
+<form>
+  <div class="input-group">
+    <div class="form-floating mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="First name"
+      />
+      <label for="floatingInput">First name</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Middle name"
+      />
+      <label for="floatingInput">Middle name</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="name@example.com"
+      />
+      <label for="floatingInput">Last name</label>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="form-floating mb-3">
+      <input
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Last name"
+      />
+      <label for="floatingInput">Email address</label>
+      <div id="emailHelp" class="form-text">
+        We'll never share your email and contact number with anyone else.
+      </div>
+    </div>
+    <div class="form-floating mb-3">
+      <input
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Contact number"
+      />
+      <label for="floatingInput">Contact number</label>
+    </div>
+  </div>
+  <div class="form-floating mb-3">
+    <input
+      type="text"
+      class="form-control"
+      id="floatingInput"
+      placeholder="ID number"
+    />
+    <label for="floatingInput">ID number</label>
+  </div>
+  <button mat-flat-button color="primary">Add Faculty</button>
+</form>
+
+<div class="faculty-list">
+  <div class="faculty-item">
+    <div class="image">Image</div>
+    <div class="nameAndEmail">
+      <span><strong>Jao Renzo G. Miranda</strong></span>
+      <span>mirandajaorenzo@gmail.com</span>
+    </div>
+    <div class="status">
+      <p>Borrowed <span>IT202</span> key.</p>
+    </div>
+    <div class="view-profile">View Profile</div>
+  </div>
+</div>

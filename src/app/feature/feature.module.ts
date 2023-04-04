@@ -10,7 +10,6 @@ import { RoomKeyManagementComponent } from './components/room-key-management/roo
 import { SettingsComponent } from './components/settings/settings.component';
 import { AccountComponent } from './components/account/account.component';
 
-
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
@@ -18,7 +17,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 
 import {MatTabsModule} from '@angular/material/tabs';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +37,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatCardModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatTabsModule
+    MatTabsModule,
+    FormsModule
   ],
 
 })
