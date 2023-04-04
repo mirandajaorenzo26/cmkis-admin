@@ -12,7 +12,8 @@
 
   .logo{
     height: 150px;
-    background-color: black;
+    aspect-ratio: 3/2;
+    object-fit: contain;
   }
 
   .btn-category{
@@ -34,7 +35,7 @@
     cursor: pointer;
 
     &:hover{
-      background-color: #cacaca;
+      background-color: #eaeaea;
     }
 
     .active{

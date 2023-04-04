@@ -8,6 +8,8 @@ import { SharedModule } from './shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { FeatureModule } from './feature/feature.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,6 @@ import { FeatureModule } from './feature/feature.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
     SharedModule,
     FormsModule,
     FeatureModule,
